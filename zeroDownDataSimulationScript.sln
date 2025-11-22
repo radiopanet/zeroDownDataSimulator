@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zeroDownDataSimulationScript", "zeroDownDataSimulationScript.csproj", "{B8FEE26F-F140-E855-A67C-926CDF8B6D29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8FEE26F-F140-E855-A67C-926CDF8B6D29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8FEE26F-F140-E855-A67C-926CDF8B6D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8FEE26F-F140-E855-A67C-926CDF8B6D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8FEE26F-F140-E855-A67C-926CDF8B6D29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DB1334F-275E-47E6-907E-7B68FB3C284C}
+	EndGlobalSection
+EndGlobal

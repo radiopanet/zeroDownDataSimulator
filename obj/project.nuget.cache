@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "ooZUFhmMbPw=",
+  "success": true,
+  "projectFilePath": "/home/tx/Projects/DotNet/zeroDown/zeroDownDataSimulationScript/zeroDownDataSimulationScript.csproj",
+  "expectedPackageFiles": [
+    "/home/tx/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "/home/tx/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.2/microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "/home/tx/.nuget/packages/npgsql/9.0.4/npgsql.9.0.4.nupkg.sha512",
+    "/home/tx/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/home/tx/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "/home/tx/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.22/microsoft.netcore.app.host.linux-x64.8.0.22.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
+}

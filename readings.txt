@@ -1,0 +1,28 @@
+using System;
+using Npgsql;
+
+
+string connString = "Host=localhost;Username=postgres;Password=123456;Database=zero_down_db";
+
+using var conn = new NpgsqlConnection(connString);
+conn.Open();
+
+Random rand = new Random();
+
+//Simulate readings for parameter 1-9
+for(int parameterId = 1; parameterId<=9; parameterId++)
+{
+    //Generate random value (adjust ranges per parameter)
+    double value = rand.NextDouble() * 100; // crude example
+
+    //Insert into readings
+    using var cmd = new NpgsqlCommand(
+         "INSERT INTO readings (equipment_id, parameter_id, reading_value, recorded_at) " +
+         "VALUES ((SELECT equipment_id FROM parameters WHERE parameter_id=@pid), @pid, @val, NOW())",conn);
+
+    cmd.Parameters.AddWithValue("pid", parameterId);
+    cmd.Parameters.AddWithValue("val", value);
+    cmd.ExecuteNonQuery();
+    Console.WriteLine($"Inserted reading for parameter {parameterId}: {value}");  
+
+}
